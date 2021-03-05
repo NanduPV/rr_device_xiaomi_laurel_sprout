@@ -25,6 +25,9 @@ vendor/etc/acdbdata/adsp_avs_config.acdb
 # ADSP modules (misound)
 vendor/lib/rfsa/adsp/misound_res.bin
 
+# Camera service
+lib/libcameraservice.so
+
 # Camera
 vendor/lib/hw/camera.trinket.so
 vendor/lib/libFaceGrade.so
