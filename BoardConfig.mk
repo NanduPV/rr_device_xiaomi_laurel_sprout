@@ -40,7 +40,10 @@ TARGET_SCREEN_DENSITY := 320
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/laurel_sprout-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/laurel_sprout_defconfig
+
+# Fenix Kernel
+#TARGET_KERNEL_CONFIG := vendor/fenix_defconfig 
 
 # Partitions
 BOARD_METADATAIMAGE_PARTITION_SIZE := 16777216
@@ -64,3 +67,4 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit the proprietary files
 -include vendor/xiaomi/laurel_sprout/BoardConfigVendor.mk
+-include vendor/miuicamera/common/BoardConfigVendor.mk
