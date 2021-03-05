@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- The margin between Emergency Carrier area and pattern/pin
+         view to incorporate the FOD icon -->
+    <dimen name="keyguard_security_fod_view_margin">60dp</dimen>
+    
+        <!-- Burn-in protection -->
+    <dimen name="horizontal_max_swift">1.0dp</dimen>
+    <dimen name="vertical_max_swift">1.0dp</dimen>
+</resources>

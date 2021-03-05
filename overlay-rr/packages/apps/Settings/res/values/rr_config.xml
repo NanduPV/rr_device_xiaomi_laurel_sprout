@@ -17,9 +17,18 @@
 */
 -->
 
-<!-- These resources are around just to allow their values to be customized
-     for different hardware and product builds. -->
 <resources>
-    <!-- Doze: check proximity sensor before pulsing? -->
-    <bool name="doze_proximity_check_before_pulse">true</bool>
+    
+    <!-- Use only if devices have variable intensity support for haptics-->
+    <bool name="config_vibration_supports_multiple_intensities">true</bool>
+
+    <!-- If device supports battery health options -->
+    <bool name="config_supportBatteryHealth">true</bool>
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
+
+    <!-- Screen off FOD -->
+    <bool name="config_supportScreenOffFod">true</bool>
+
 </resources>
