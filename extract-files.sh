@@ -22,9 +22,3 @@ export VENDOR=xiaomi
 export DEVICE_COMMON=sm6125-common
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh "$@"
-
-MY_DIR="${BASH_SOURCE%/*}"
-if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
-
-LINEAGE_ROOT="$MY_DIR"/../../..
-DEVICE_BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
