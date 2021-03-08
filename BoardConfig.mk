@@ -67,4 +67,5 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit the proprietary files
 -include vendor/xiaomi/laurel_sprout/BoardConfigVendor.mk
+# # Inherit the proprietary MIUICamera files
 -include vendor/miuicamera/common/BoardConfigVendor.mk
