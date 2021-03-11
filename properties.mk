@@ -48,8 +48,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.camera.not.ctsverify.apk=1 \
     vendor.camera.vidhance.eis.enabled=1 \
     vendor.camera.vidhanceEis.force=1 \
-    vendor.vidhance.video.enabled=1
-    
+    vendor.vidhance.video.enabled=1 \
+    camera.disable_zsl_mode=true
 
 # Youtube 1080p hack
 PRODUCT_PROPERTY_OVERRIDES += \
